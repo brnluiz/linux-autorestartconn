@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo updaterc.d restartconn-boot defaults
