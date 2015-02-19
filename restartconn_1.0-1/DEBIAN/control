@@ -1,0 +1,10 @@
+Package: restartconn 
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: i386
+Maintainer: Bruno Luiz <contato@brunoluiz.net>
+Description: Restart Conn for BeagleBone Linux 3.8
+ Some linux kernel don't support ethernet hot-pluging, so I found this script 
+ which detects if the cable is reconnected and then restart the networking service. 
+ With that, the ethernet interface works again.
