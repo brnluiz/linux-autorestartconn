@@ -26,11 +26,11 @@ fi
 
 case "$1" in
   purge)
-    sudo update-rc.d -f restartconn-boot defaults remove
+    update-rc.d -f restartconn-boot defaults remove
   ;;
 
   remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
-    sudo update-rc.d -f restartconn-boot remove
+    update-rc.d -f restartconn-boot remove
   ;;
 
   *)

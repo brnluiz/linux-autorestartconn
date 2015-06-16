@@ -1,4 +1,4 @@
-# Restart Connection: Projected for BeagleBone
+# Auto Restart Linux Eth Script
 
 Some Linux kernels for BeagleBone does not support ethernet hot-plugging (v3.8.13, for example), so I found this script which detects if the cable is reconnected and then restart the networking service. With that, the ethernet interface eth0 come back to life.
 

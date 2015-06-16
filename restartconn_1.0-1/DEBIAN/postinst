@@ -26,7 +26,7 @@ fi
 
 case "$1" in
     configure)
-		sudo update-rc.d restartconn-boot defaults
+		update-rc.d restartconn-boot defaults
 	;;
 	
 	abort-upgrade|abort-remove|abort-deconfigure)
